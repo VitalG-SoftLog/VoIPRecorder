@@ -1,0 +1,29 @@
+Version 1.2.3 build 4
+
+* Added support of N-SIP terminals/PBX
+* Added new config parameter "mode", can be "default" or "nsip"
+* Updated "settings.exe"
+* Minor bugfixies
+
+Version 1.2.3 build 3
+
+* Fixed jrtplib cut-off on duplicated UDP packets
+* Fixed updating of caller ID
+
+Version 1.2.3 build 2
+
+* Fixed entangled remote/local streams
+* Fixed long sounds clicks when recording several calls/conference
+* Changed channels mixing algorithm
+* Added retreiving of caller-id from phone display in addition to SIP user name
+* Added Automatic Gain Control
+* Minor bugfixes
+
+Version 1.2.3 build 1
+
+* Added VS_VERSION_INFO
+* Added ability to call MP_SetCallback befor MP_Open
+* Changed call termination algorithm
+* Fixed detection of non-NEC terminals
+* Fixed config file name to VoIP.xml
+* Fixed Caller-ID

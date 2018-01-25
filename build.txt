@@ -1,0 +1,11 @@
+3 main configuration:
+
+1. Debug - Debug version of DLL
+2. Release - Release version without logs
+2. ReleaseLog - Release version with debug logs
+
+Not require any additional dependencies...
+
+RecorderLib/ 	main multixtr.dll source + JRTPlib etc...
+Settings/ 	simply GUI for edit DLL .xml config
+tinyxml/        tinyxml library
